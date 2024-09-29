@@ -28,12 +28,18 @@ builder.Services.AddHttpClient<ItauService>()
 // Carregar configurações personalizadas
 builder.Services.Configure<ConfiguracoesItau>(builder.Configuration.GetSection("ConfiguracoesItau"));
 
+// Adicionar Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
 // Configurar o pipeline de requisições
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
+    app.UseSwagger(); // Habilitar Swagger
+    app.UseSwaggerUI(); // Habilitar UI do Swagger
 }
 else
 {

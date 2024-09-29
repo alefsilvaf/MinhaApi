@@ -31,3 +31,5 @@ C:\Users\alefs\MinhaApi\obj\Debug\net8.0\refint\MinhaApi.dll
 C:\Users\alefs\MinhaApi\obj\Debug\net8.0\MinhaApi.pdb
 C:\Users\alefs\MinhaApi\obj\Debug\net8.0\MinhaApi.genruntimeconfig.cache
 C:\Users\alefs\MinhaApi\obj\Debug\net8.0\ref\MinhaApi.dll
+C:\Users\alefs\MinhaApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\alefs\MinhaApi\obj\Debug\net8.0\MinhaApi.sourcelink.json
